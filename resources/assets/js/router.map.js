@@ -1,22 +1,22 @@
-import HomeLayout from './views/Layouts/Home';
-import AdminLayout from './views/Layouts/Admin';
-import ClientLayout from './views/Layouts/Client';
+import PageOne from './views/Pages/Page1';
+import PageTwo from './views/Pages/Page2';
+import PageThree from './views/Pages/Page3';
 
 const map = [
     {
         path: '/',
-        name: 'home',
-        component: HomeLayout
+        name: 'page-one',
+        component: PageOne
     },
     {
-        path: '/admin',
-        name: 'admin',
-        component: AdminLayout
+        path: '/page2',
+        name: 'page-two',
+        component: PageTwo
     },
     {
-        path: '/client',
-        name: 'client',
-        component: ClientLayout
+        path: '/page3',
+        name: 'page-three',
+        component: PageThree
     }
 ]
 

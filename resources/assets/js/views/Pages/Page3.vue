@@ -1,5 +1,5 @@
 <template>
-    <div class="client">Cliente</div>
+    <div class="page">Página 3</div>
 </template>
 
 <script type="text/javascript">
