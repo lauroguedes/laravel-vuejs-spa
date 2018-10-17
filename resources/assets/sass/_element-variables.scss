@@ -1,0 +1,17 @@
+/* theme color */
+//$--color-primary: teal;
+
+/* font size */
+$font-size-xl: 1.25rem; //20px
+$font-size-lg: 1.125rem; //18px
+$font-size-md: 1rem; //16px
+$font-size-sm: 0.875rem; //14px
+$font-size-xs: 0.8125rem; //13px
+$font-size-xxs: 0.75rem; //12px
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+$font-family-base: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+
+@import "~element-ui/packages/theme-chalk/src/index";
+@import "utilities";

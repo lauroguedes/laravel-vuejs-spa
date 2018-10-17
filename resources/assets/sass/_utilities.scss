@@ -1,0 +1,42 @@
+w-100{
+  width: 100%;
+}
+.h-100{
+  height: 100%;
+}
+// Align
+.left-align{
+  text-align: left;
+}
+.center-align{
+  text-align: center;
+}
+.right-align{
+  text-align: right;
+}
+//Text Size
+$line-height-default: 0.6rem;
+.xl-text{
+  font-size: $font-size-xl;
+  line-height: $font-size-xl + $line-height-default;
+}
+.lg-text{
+  font-size: $font-size-lg;
+  line-height: $font-size-lg + $line-height-default;
+}
+.md-text{
+  font-size: $font-size-md;
+  line-height: $font-size-md + $line-height-default;
+}
+.sm-text{
+  font-size: $font-size-sm;
+  line-height: $font-size-sm + $line-height-default;
+}
+.xs-text{
+  font-size: $font-size-xs;
+  line-height: $font-size-xs + $line-height-default;
+}
+.xxs-text{
+  font-size: $font-size-xxs;
+  line-height: $font-size-xxs + $line-height-default;
+}

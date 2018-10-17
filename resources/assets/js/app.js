@@ -12,7 +12,7 @@ import Vue from 'vue';
 //import lib element ui
 import ElementUI from 'element-ui';
 import locale from 'element-ui/lib/locale/lang/pt-br'
-import 'element-ui/lib/theme-chalk/index.css';
+import '../sass/_element-variables.scss';
 import 'element-ui/lib/theme-chalk/display.css';
 
 import Vuex from 'vuex';
