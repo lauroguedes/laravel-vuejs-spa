@@ -67280,6 +67280,15 @@ w-100 {
   line-height: 1.35rem;
 }
 
+.link-white {
+  color: #f2f6fc;
+  text-decoration: underline;
+}
+
+.link-white:hover {
+  opacity: 0.7;
+}
+
 /*
 * Global Styles
 */
