@@ -3,7 +3,7 @@
         <h1>Home</h1>
         <ul>
             <li><router-link :to="{ name: 'admin' }">Admin</router-link></li>
-            <li><router-link :to="{ name: 'admin' }">Client</router-link></li>
+            <li><router-link :to="{ name: 'client' }">Client</router-link></li>
         </ul>
     </div>
 </template>
