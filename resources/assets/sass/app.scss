@@ -30,6 +30,7 @@ body{
 .el-aside {
   background-color: $--color-info-light;
   color: $--color-text-regular;
+  width: auto !important;
 }
 
 .el-main {

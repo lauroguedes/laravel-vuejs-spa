@@ -67325,6 +67325,7 @@ body #app .app-page {
 .el-aside {
   background-color: #e9e9eb;
   color: #606266;
+  width: auto !important;
 }
 
 .el-main {
