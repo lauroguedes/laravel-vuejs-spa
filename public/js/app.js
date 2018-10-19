@@ -16782,8 +16782,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_element_ui__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_element_ui___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_element_ui__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_element_ui_lib_locale_lang_pt_br__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_element_ui_lib_locale_lang_pt_br___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_element_ui_lib_locale_lang_pt_br__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_element_ui_lib_locale_lang_en__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_element_ui_lib_locale_lang_en___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_element_ui_lib_locale_lang_en__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__sass_element_variables_scss__ = __webpack_require__(192);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__sass_element_variables_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__sass_element_variables_scss__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_element_ui_lib_theme_chalk_display_css__ = __webpack_require__(198);
@@ -16814,7 +16814,7 @@ __webpack_require__(84);
 
 
 
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_element_ui___default.a, { locale: __WEBPACK_IMPORTED_MODULE_2_element_ui_lib_locale_lang_pt_br___default.a });
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_element_ui___default.a, { locale: __WEBPACK_IMPORTED_MODULE_2_element_ui_lib_locale_lang_en___default.a });
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_5_vuex__["a" /* default */]);
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_6_vue_router__["a" /* default */]);
 
@@ -91482,124 +91482,7 @@ module.exports = __webpack_require__(33);
 /******/ });
 
 /***/ }),
-/* 191 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.default = {
-  el: {
-    colorpicker: {
-      confirm: 'Confirmar',
-      clear: 'Limpar'
-    },
-    datepicker: {
-      now: 'Agora',
-      today: 'Hoje',
-      cancel: 'Cancelar',
-      clear: 'Limpar',
-      confirm: 'Confirmar',
-      selectDate: 'Selecione a data',
-      selectTime: 'Selecione a hora',
-      startDate: 'Data inicial',
-      startTime: 'Hora inicial',
-      endDate: 'Data final',
-      endTime: 'Hora final',
-      prevYear: 'Ano anterior',
-      nextYear: 'Próximo ano',
-      prevMonth: 'Mês anterior',
-      nextMonth: 'Próximo mês',
-      year: '',
-      month1: 'Janeiro',
-      month2: 'Fevereiro',
-      month3: 'Março',
-      month4: 'Abril',
-      month5: 'Maio',
-      month6: 'Junho',
-      month7: 'Julho',
-      month8: 'Agosto',
-      month9: 'Setembro',
-      month10: 'Outubro',
-      month11: 'Novembro',
-      month12: 'Dezembro',
-      // week: 'semana',
-      weeks: {
-        sun: 'Dom',
-        mon: 'Seg',
-        tue: 'Ter',
-        wed: 'Qua',
-        thu: 'Qui',
-        fri: 'Sex',
-        sat: 'Sab'
-      },
-      months: {
-        jan: 'Jan',
-        feb: 'Fev',
-        mar: 'Mar',
-        apr: 'Abr',
-        may: 'Mai',
-        jun: 'Jun',
-        jul: 'Jul',
-        aug: 'Ago',
-        sep: 'Set',
-        oct: 'Out',
-        nov: 'Nov',
-        dec: 'Dez'
-      }
-    },
-    select: {
-      loading: 'Carregando',
-      noMatch: 'Sem resultados',
-      noData: 'Sem dados',
-      placeholder: 'Selecione'
-    },
-    cascader: {
-      noMatch: 'Sem resultados',
-      loading: 'Carregando',
-      placeholder: 'Selecione'
-    },
-    pagination: {
-      goto: 'Ir para',
-      pagesize: '/página',
-      total: 'Total {total}',
-      pageClassifier: ''
-    },
-    messagebox: {
-      title: 'Mensagem',
-      confirm: 'Confirmar',
-      cancel: 'Cancelar',
-      error: 'Erro!'
-    },
-    upload: {
-      deleteTip: 'aperte delete para apagar',
-      delete: 'Apagar',
-      preview: 'Pré-visualizar',
-      continue: 'Continuar'
-    },
-    table: {
-      emptyText: 'Sem dados',
-      confirmFilter: 'Confirmar',
-      resetFilter: 'Limpar',
-      clearFilter: 'Todos',
-      sumText: 'Total'
-    },
-    tree: {
-      emptyText: 'Sem dados'
-    },
-    transfer: {
-      noMatch: 'Sem resultados',
-      noData: 'Sem dados',
-      titles: ['Lista 1', 'Lista 2'],
-      filterPlaceholder: 'Digite uma palavra-chave',
-      noCheckedFormat: '{total} itens',
-      hasCheckedFormat: '{checked}/{total} selecionados'
-    }
-  }
-};
-
-/***/ }),
+/* 191 */,
 /* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -98036,6 +97919,124 @@ exports.push([module.i, "\n.aside-content[data-v-7ea8b0f9] {\n  position: relati
 
 // exports
 
+
+/***/ }),
+/* 284 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports.default = {
+  el: {
+    colorpicker: {
+      confirm: 'OK',
+      clear: 'Clear'
+    },
+    datepicker: {
+      now: 'Now',
+      today: 'Today',
+      cancel: 'Cancel',
+      clear: 'Clear',
+      confirm: 'OK',
+      selectDate: 'Select date',
+      selectTime: 'Select time',
+      startDate: 'Start Date',
+      startTime: 'Start Time',
+      endDate: 'End Date',
+      endTime: 'End Time',
+      prevYear: 'Previous Year',
+      nextYear: 'Next Year',
+      prevMonth: 'Previous Month',
+      nextMonth: 'Next Month',
+      year: '',
+      month1: 'January',
+      month2: 'February',
+      month3: 'March',
+      month4: 'April',
+      month5: 'May',
+      month6: 'June',
+      month7: 'July',
+      month8: 'August',
+      month9: 'September',
+      month10: 'October',
+      month11: 'November',
+      month12: 'December',
+      // week: 'week',
+      weeks: {
+        sun: 'Sun',
+        mon: 'Mon',
+        tue: 'Tue',
+        wed: 'Wed',
+        thu: 'Thu',
+        fri: 'Fri',
+        sat: 'Sat'
+      },
+      months: {
+        jan: 'Jan',
+        feb: 'Feb',
+        mar: 'Mar',
+        apr: 'Apr',
+        may: 'May',
+        jun: 'Jun',
+        jul: 'Jul',
+        aug: 'Aug',
+        sep: 'Sep',
+        oct: 'Oct',
+        nov: 'Nov',
+        dec: 'Dec'
+      }
+    },
+    select: {
+      loading: 'Loading',
+      noMatch: 'No matching data',
+      noData: 'No data',
+      placeholder: 'Select'
+    },
+    cascader: {
+      noMatch: 'No matching data',
+      loading: 'Loading',
+      placeholder: 'Select'
+    },
+    pagination: {
+      goto: 'Go to',
+      pagesize: '/page',
+      total: 'Total {total}',
+      pageClassifier: ''
+    },
+    messagebox: {
+      title: 'Message',
+      confirm: 'OK',
+      cancel: 'Cancel',
+      error: 'Illegal input'
+    },
+    upload: {
+      deleteTip: 'press delete to remove',
+      delete: 'Delete',
+      preview: 'Preview',
+      continue: 'Continue'
+    },
+    table: {
+      emptyText: 'No Data',
+      confirmFilter: 'Confirm',
+      resetFilter: 'Reset',
+      clearFilter: 'All',
+      sumText: 'Sum'
+    },
+    tree: {
+      emptyText: 'No Data'
+    },
+    transfer: {
+      noMatch: 'No matching data',
+      noData: 'No data',
+      titles: ['List 1', 'List 2'], // to be translated
+      filterPlaceholder: 'Enter keyword', // to be translated
+      noCheckedFormat: '{total} items', // to be translated
+      hasCheckedFormat: '{checked}/{total} checked' // to be translated
+    }
+  }
+};
 
 /***/ })
 /******/ ]);

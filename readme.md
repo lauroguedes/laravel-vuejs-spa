@@ -7,7 +7,10 @@
 
 - Laravel 5.7
 - Vue + VueRouter + Vuex
+- Lodash, Axios and JQuery lib
 - [Element Desktop UI Library](https://element.eleme.io)
+- 7 layouts type
+- Custom Theme Color
 
 ## Installation
 
@@ -57,3 +60,10 @@ npm run hot
 ```
 npm run production
 ```
+
+### Change layout type and theme color
+
+For change the layout type, open the `App.vue` file and edit layout string dynamiq component.
+
+For change the theme color, open the `resources/assets/js/sass_element-variables.scss` file and uncomment line 2 inserting the color. 
+If you wish to make a few more changes to the theme, [access the document](https://element.eleme.io/#/en-US/component/custom-theme). 

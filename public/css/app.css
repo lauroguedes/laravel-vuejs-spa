@@ -67345,7 +67345,7 @@ body #app .app-page {
 }
 
 .el-main .page .el-breadcrumb {
-  padding: 10px;
+  padding: 10px 20px;
   background: #ebeef5;
 }
 
