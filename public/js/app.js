@@ -95494,33 +95494,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -95532,37 +95505,43 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    { staticClass: "page" },
+    [
+      _c("h1", { staticClass: "title-page" }, [_vm._v("Page 1")]),
+      _vm._v(" "),
+      _c(
+        "el-breadcrumb",
+        { attrs: { "separator-class": "el-icon-arrow-right" } },
+        [
+          _c("el-breadcrumb-item", { attrs: { to: { name: "page-one" } } }, [
+            _vm._v("Home")
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _vm._m(0)
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "page" }, [
-      _c("p", [
-        _vm._v(
-          "\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo massa, facilisis quis fermentum vitae, dapibus at magna. Nulla at lacus at justo placerat bibendum et nec sem. Vestibulum sagittis nisi quis quam malesuada, non efficitur est viverra. Nam porttitor justo a luctus gravida. Nunc egestas ullamcorper risus, vitae vehicula neque scelerisque at. Proin aliquam vel dui non semper. Vivamus eget auctor ligula, vitae aliquam mi.\n\n    Ut sodales ornare commodo. Vestibulum non ullamcorper lorem. Nam accumsan libero ac libero volutpat iaculis. Morbi dapibus odio et metus convallis, vel tempus nulla dignissim. Donec eleifend nulla vitae ligula maximus, lobortis dignissim magna vestibulum. Pellentesque fermentum sapien purus. Nunc consectetur nunc bibendum efficitur rutrum.\n\n    Integer dui nisl, aliquet et erat id, vestibulum convallis nisi. Praesent sapien dolor, facilisis vel faucibus nec, sagittis eu enim. Nam iaculis id risus vitae elementum. Mauris sed dolor et erat imperdiet fringilla. Cras non bibendum nulla. Sed posuere pellentesque tortor, vitae sodales nibh aliquam non. Pellentesque nisi est, venenatis eu quam sed, ultrices suscipit nibh. Fusce imperdiet elit at ligula mollis, nec pretium metus hendrerit. Ut ac suscipit orci. Donec laoreet quam nulla, non vestibulum orci imperdiet at. Nulla rutrum placerat urna, eget sagittis quam sollicitudin eget. Sed non iaculis orci. Maecenas mollis, ante ac aliquet sodales, mauris ipsum tristique arcu, non vestibulum leo nisl nec velit. Pellentesque suscipit facilisis tortor, ut ultrices lorem finibus quis. Nulla mollis neque tortor, at feugiat mi semper non. Fusce eu ligula faucibus, pellentesque elit non, pulvinar ligula.\n\n    Ut convallis eros ut nisl sodales, id suscipit ex tincidunt. Phasellus at urna ac quam vulputate euismod. Donec sed nisl lacus. Suspendisse in augue massa. Donec luctus iaculis mollis. Vivamus magna odio, bibendum condimentum arcu sit amet, accumsan semper est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit eget mi venenatis varius. Mauris ut ante dolor. Etiam gravida ligula mauris, in porta leo condimentum vitae. Suspendisse sit amet neque tellus. Nunc aliquet sollicitudin sodales. Cras tristique diam libero, nec tincidunt libero suscipit eu. Cras efficitur blandit commodo. Phasellus rhoncus a metus in malesuada.\n    "
-        )
-      ]),
+    return _c("div", { staticClass: "content-page" }, [
+      _c("h3", [_vm._v("Você Mesmo")]),
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n    Aliquam convallis interdum velit, ac maximus purus faucibus ut. Nulla auctor, sem ac faucibus iaculis, dolor quam laoreet leo, et dictum nisl nulla at nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed in sodales sem, vitae consectetur purus. Morbi vel nisi elit. Aliquam accumsan consectetur est, a pulvinar sem mollis et. Vestibulum sit amet pharetra elit, sed mattis elit. Curabitur iaculis nisl pretium, egestas sem nec, lacinia lacus. Curabitur interdum enim quis quam luctus, eu cursus dui hendrerit. Aliquam laoreet leo efficitur, viverra mi vel, lacinia tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo massa, facilisis quis fermentum vitae, dapibus at magna. Nulla at lacus at justo placerat bibendum et nec sem. Vestibulum sagittis nisi quis quam malesuada, non efficitur est viverra. Nam porttitor justo a luctus gravida. Nunc egestas ullamcorper risus, vitae vehicula neque scelerisque at. Proin aliquam vel dui non semper. Vivamus eget auctor ligula, vitae aliquam mi.\n\n    Ut sodales ornare commodo. Vestibulum non ullamcorper lorem. Nam accumsan libero ac libero volutpat iaculis. Morbi dapibus odio et metus convallis, vel tempus nulla dignissim. Donec eleifend nulla vitae ligula maximus, lobortis dignissim magna vestibulum. Pellentesque fermentum sapien purus. Nunc consectetur nunc bibendum efficitur rutrum.\n\n    Integer dui nisl, aliquet et erat id, vestibulum convallis nisi. Praesent sapien dolor, facilisis vel faucibus nec, sagittis eu enim. Nam iaculis id risus vitae elementum. Mauris sed dolor et erat imperdiet fringilla. Cras non bibendum nulla. Sed posuere pellentesque tortor, vitae sodales nibh aliquam non. Pellentesque nisi est, venenatis eu quam sed, ultrices suscipit nibh. Fusce imperdiet elit at ligula mollis, nec pretium metus hendrerit. Ut ac suscipit orci. Donec laoreet quam nulla, non vestibulum orci imperdiet at. Nulla rutrum placerat urna, eget sagittis quam sollicitudin eget. Sed non iaculis orci. Maecenas mollis, ante ac aliquet sodales, mauris ipsum tristique arcu, non vestibulum leo nisl nec velit. Pellentesque suscipit facilisis tortor, ut ultrices lorem finibus quis. Nulla mollis neque tortor, at feugiat mi semper non. Fusce eu ligula faucibus, pellentesque elit non, pulvinar ligula.\n\n    Ut convallis eros ut nisl sodales, id suscipit ex tincidunt. Phasellus at urna ac quam vulputate euismod. Donec sed nisl lacus. Suspendisse in augue massa. Donec luctus iaculis mollis. Vivamus magna odio, bibendum condimentum arcu sit amet, accumsan semper est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit eget mi venenatis varius. Mauris ut ante dolor. Etiam gravida ligula mauris, in porta leo condimentum vitae. Suspendisse sit amet neque tellus. Nunc aliquet sollicitudin sodales. Cras tristique diam libero, nec tincidunt libero suscipit eu. Cras efficitur blandit commodo. Phasellus rhoncus a metus in malesuada.\n\n    Aliquam convallis interdum velit, ac maximus purus faucibus ut. Nulla auctor, sem ac faucibus iaculis, dolor quam laoreet leo, et dictum nisl nulla at nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed in sodales sem, vitae consectetur purus. Morbi vel nisi elit. Aliquam accumsan consectetur est, a pulvinar sem mollis et. Vestibulum sit amet pharetra elit, sed mattis elit. Curabitur iaculis nisl pretium, egestas sem nec, lacinia lacus. Curabitur interdum enim quis quam luctus, eu cursus dui hendrerit. Aliquam laoreet leo efficitur, viverra mi vel, lacinia tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo massa, facilisis quis fermentum vitae, dapibus at magna. Nulla at lacus at justo placerat bibendum et nec sem. Vestibulum sagittis nisi quis quam malesuada, non efficitur est viverra. Nam porttitor justo a luctus gravida. Nunc egestas ullamcorper risus, vitae vehicula neque scelerisque at. Proin aliquam vel dui non semper. Vivamus eget auctor ligula, vitae aliquam mi.\n    "
+          '\n            "Lembre-se de que você mesmo é o melhor secretário de sua tarefa, o mais eficiente propagandista de seus ideais, a mais clara demonstração de seus princípios, o mais alto padrão do ensino superior que seu espírito abraça e a mensagem viva das elevadas noções que você transmite aos outros. Não se esqueça, igualmente, de que o maior inimigo de suas realizações mais nobres, a completa ou incompleta negação do idealismo sublime que você apregoa, a nota discordante da sinfonia do bem que pretende executar, o arquiteto de suas aflições e o destruidor de suas oportunidades de elevação - é você mesmo."\n        '
         )
       ]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n    Ut sodales ornare commodo. Vestibulum non ullamcorper lorem. Nam accumsan libero ac libero volutpat iaculis. Morbi dapibus odio et metus convallis, vel tempus nulla dignissim. Donec eleifend nulla vitae ligula maximus, lobortis dignissim magna vestibulum. Pellentesque fermentum sapien purus. Nunc consectetur nunc bibendum efficitur rutrum.\n\n    Integer dui nisl, aliquet et erat id, vestibulum convallis nisi. Praesent sapien dolor, facilisis vel faucibus nec, sagittis eu enim. Nam iaculis id risus vitae elementum. Mauris sed dolor et erat imperdiet fringilla. Cras non bibendum nulla. Sed posuere pellentesque tortor, vitae sodales nibh aliquam non. Pellentesque nisi est, venenatis eu quam sed, ultrices suscipit nibh. Fusce imperdiet elit at ligula mollis, nec pretium metus hendrerit. Ut ac suscipit orci. Donec laoreet quam nulla, non vestibulum orci imperdiet at. Nulla rutrum placerat urna, eget sagittis quam sollicitudin eget. Sed non iaculis orci. Maecenas mollis, ante ac aliquet sodales, mauris ipsum tristique arcu, non vestibulum leo nisl nec velit. Pellentesque suscipit facilisis tortor, ut ultrices lorem finibus quis. Nulla mollis neque tortor, at feugiat mi semper non. Fusce eu ligula faucibus, pellentesque elit non, pulvinar ligula.\n\n    Ut convallis eros ut nisl sodales, id suscipit ex tincidunt. Phasellus at urna ac quam vulputate euismod. Donec sed nisl lacus. Suspendisse in augue massa. Donec luctus iaculis mollis. Vivamus magna odio, bibendum condimentum arcu sit amet, accumsan semper est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit eget mi venenatis varius. Mauris ut ante dolor. Etiam gravida ligula mauris, in porta leo condimentum vitae. Suspendisse sit amet neque tellus. Nunc aliquet sollicitudin sodales. Cras tristique diam libero, nec tincidunt libero suscipit eu. Cras efficitur blandit commodo. Phasellus rhoncus a metus in malesuada.\n    "
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n    Aliquam convallis interdum velit, ac maximus purus faucibus ut. Nulla auctor, sem ac faucibus iaculis, dolor quam laoreet leo, et dictum nisl nulla at nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed in sodales sem, vitae consectetur purus. Morbi vel nisi elit. Aliquam accumsan consectetur est, a pulvinar sem mollis et. Vestibulum sit amet pharetra elit, sed mattis elit. Curabitur iaculis nisl pretium, egestas sem nec, lacinia lacus. Curabitur interdum enim quis quam luctus, eu cursus dui hendrerit. Aliquam laoreet leo efficitur, viverra mi vel, lacinia tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo massa, facilisis quis fermentum vitae, dapibus at magna. Nulla at lacus at justo placerat bibendum et nec sem. Vestibulum sagittis nisi quis quam malesuada, non efficitur est viverra. Nam porttitor justo a luctus gravida. Nunc egestas ullamcorper risus, vitae vehicula neque scelerisque at. Proin aliquam vel dui non semper. Vivamus eget auctor ligula, vitae aliquam mi.\n\n    Ut sodales ornare commodo. Vestibulum non ullamcorper lorem. Nam accumsan libero ac libero volutpat iaculis. Morbi dapibus odio et metus convallis, vel tempus nulla dignissim. Donec eleifend nulla vitae ligula maximus, lobortis dignissim magna vestibulum. Pellentesque fermentum sapien purus. Nunc consectetur nunc bibendum efficitur rutrum.\n\n    Integer dui nisl, aliquet et erat id, vestibulum convallis nisi. Praesent sapien dolor, facilisis vel faucibus nec, sagittis eu enim. Nam iaculis id risus vitae elementum. Mauris sed dolor et erat imperdiet fringilla. Cras non bibendum nulla. Sed posuere pellentesque tortor, vitae sodales nibh aliquam non. Pellentesque nisi est, venenatis eu quam sed, ultrices suscipit nibh. Fusce imperdiet elit at ligula mollis, nec pretium metus hendrerit. Ut ac suscipit orci. Donec laoreet quam nulla, non vestibulum orci imperdiet at. Nulla rutrum placerat urna, eget sagittis quam sollicitudin eget. Sed non iaculis orci. Maecenas mollis, ante ac aliquet sodales, mauris ipsum tristique arcu, non vestibulum leo nisl nec velit. Pellentesque suscipit facilisis tortor, ut ultrices lorem finibus quis. Nulla mollis neque tortor, at feugiat mi semper non. Fusce eu ligula faucibus, pellentesque elit non, pulvinar ligula.\n\n    Ut convallis eros ut nisl sodales, id suscipit ex tincidunt. Phasellus at urna ac quam vulputate euismod. Donec sed nisl lacus. Suspendisse in augue massa. Donec luctus iaculis mollis. Vivamus magna odio, bibendum condimentum arcu sit amet, accumsan semper est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit eget mi venenatis varius. Mauris ut ante dolor. Etiam gravida ligula mauris, in porta leo condimentum vitae. Suspendisse sit amet neque tellus. Nunc aliquet sollicitudin sodales. Cras tristique diam libero, nec tincidunt libero suscipit eu. Cras efficitur blandit commodo. Phasellus rhoncus a metus in malesuada.\n\n    Aliquam convallis interdum velit, ac maximus purus faucibus ut. Nulla auctor, sem ac faucibus iaculis, dolor quam laoreet leo, et dictum nisl nulla at nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed in sodales sem, vitae consectetur purus. Morbi vel nisi elit. Aliquam accumsan consectetur est, a pulvinar sem mollis et. Vestibulum sit amet pharetra elit, sed mattis elit. Curabitur iaculis nisl pretium, egestas sem nec, lacinia lacus. Curabitur interdum enim quis quam luctus, eu cursus dui hendrerit. Aliquam laoreet leo efficitur, viverra mi vel, lacinia tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n    "
-        )
-      ])
+      _c("div", [_c("em", [_vm._v("- Chico Xavier")])])
     ])
   }
 ]
@@ -95647,7 +95626,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -95659,31 +95637,44 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    { staticClass: "page" },
+    [
+      _c("h1", { staticClass: "title-page" }, [_vm._v("Page 2")]),
+      _vm._v(" "),
+      _c(
+        "el-breadcrumb",
+        { attrs: { "separator-class": "el-icon-arrow-right" } },
+        [
+          _c("el-breadcrumb-item", { attrs: { to: { name: "page-one" } } }, [
+            _vm._v("Home")
+          ]),
+          _vm._v(" "),
+          _c("el-breadcrumb-item", [_vm._v("Page 2")])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _vm._m(0)
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "page" }, [
+    return _c("div", { staticClass: "content-page" }, [
       _c("p", [
         _vm._v(
-          "\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo massa, facilisis quis fermentum vitae, dapibus at magna. Nulla at lacus at justo placerat bibendum et nec sem. Vestibulum sagittis nisi quis quam malesuada, non efficitur est viverra. Nam porttitor justo a luctus gravida. Nunc egestas ullamcorper risus, vitae vehicula neque scelerisque at. Proin aliquam vel dui non semper. Vivamus eget auctor ligula, vitae aliquam mi.\n\n    Ut sodales ornare commodo. Vestibulum non ullamcorper lorem. Nam accumsan libero ac libero volutpat iaculis. Morbi dapibus odio et metus convallis, vel tempus nulla dignissim. Donec eleifend nulla vitae ligula maximus, lobortis dignissim magna vestibulum. Pellentesque fermentum sapien purus. Nunc consectetur nunc bibendum efficitur rutrum.\n    "
+          '\n            "Podemos acreditar que tudo que a vida nos oferecerá no futuro é repetir o que fizemos ontem e hoje. Mas, se prestarmos atenção, vamos nos dar conta de que nenhum dia é igual a outro. Cada manhã traz uma benção escondida; uma benção que só serve para esse dia e que não se pode guardar nem desaproveitar.\n            Se não usamos este milagre hoje, ele vai se perder.\n            Este milagre está nos detalhes do cotidiano; é preciso viver cada minuto porque ali encontramos a saída de nossas confusões, a alegria de nossos bons momentos, a pista correta para a decisão que tomaremos.\n            Nunca podemos deixar que cada dia pareça igual ao anterior porque todos os dias são diferentes, porque estamos em constante processo de mudança."\n            '
         )
       ]),
+      _c("div", [_c("em", [_vm._v("- Paulo Coelho")])]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n    Integer dui nisl, aliquet et erat id, vestibulum convallis nisi. Praesent sapien dolor, facilisis vel faucibus nec, sagittis eu enim. Nam iaculis id risus vitae elementum. Mauris sed dolor et erat imperdiet fringilla. Cras non bibendum nulla. Sed posuere pellentesque tortor, vitae sodales nibh aliquam non. Pellentesque nisi est, venenatis eu quam sed, ultrices suscipit nibh. Fusce imperdiet elit at ligula mollis, nec pretium metus hendrerit. Ut ac suscipit orci. Donec laoreet quam nulla, non vestibulum orci imperdiet at. Nulla rutrum placerat urna, eget sagittis quam sollicitudin eget. Sed non iaculis orci. Maecenas mollis, ante ac aliquet sodales, mauris ipsum tristique arcu, non vestibulum leo nisl nec velit. Pellentesque suscipit facilisis tortor, ut ultrices lorem finibus quis. Nulla mollis neque tortor, at feugiat mi semper non. Fusce eu ligula faucibus, pellentesque elit non, pulvinar ligula.\n\n    Ut convallis eros ut nisl sodales, id suscipit ex tincidunt. Phasellus at urna ac quam vulputate euismod. Donec sed nisl lacus. Suspendisse in augue massa. Donec luctus iaculis mollis. Vivamus magna odio, bibendum condimentum arcu sit amet, accumsan semper est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit eget mi venenatis varius. Mauris ut ante dolor. Etiam gravida ligula mauris, in porta leo condimentum vitae. Suspendisse sit amet neque tellus. Nunc aliquet sollicitudin sodales. Cras tristique diam libero, nec tincidunt libero suscipit eu. Cras efficitur blandit commodo. Phasellus rhoncus a metus in malesuada.\n    "
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n        Integer dui nisl, aliquet et erat id, vestibulum convallis nisi. Praesent sapien dolor, facilisis vel faucibus nec, sagittis eu enim. Nam iaculis id risus vitae elementum. Mauris sed dolor et erat imperdiet fringilla. Cras non bibendum nulla. Sed posuere pellentesque tortor, vitae sodales nibh aliquam non. Pellentesque nisi est, venenatis eu quam sed, ultrices suscipit nibh. Fusce imperdiet elit at ligula mollis, nec pretium metus hendrerit. Ut ac suscipit orci. Donec laoreet quam nulla, non vestibulum orci imperdiet at. Nulla rutrum placerat urna, eget sagittis quam sollicitudin eget. Sed non iaculis orci. Maecenas mollis, ante ac aliquet sodales, mauris ipsum tristique arcu, non vestibulum leo nisl nec velit. Pellentesque suscipit facilisis tortor, ut ultrices lorem finibus quis. Nulla mollis neque tortor, at feugiat mi semper non. Fusce eu ligula faucibus, pellentesque elit non, pulvinar ligula.\n\n        Ut convallis eros ut nisl sodales, id suscipit ex tincidunt. Phasellus at urna ac quam vulputate euismod. Donec sed nisl lacus. Suspendisse in augue massa. Donec luctus iaculis mollis. Vivamus magna odio, bibendum condimentum arcu sit amet, accumsan semper est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit eget mi venenatis varius. Mauris ut ante dolor. Etiam gravida ligula mauris, in porta leo condimentum vitae. Suspendisse sit amet neque tellus. Nunc aliquet sollicitudin sodales. Cras tristique diam libero, nec tincidunt libero suscipit eu. Cras efficitur blandit commodo. Phasellus rhoncus a metus in malesuada.\n    "
-        )
-      ])
+      _c("p")
     ])
   }
 ]
@@ -95764,6 +95755,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -95775,25 +95767,43 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    { staticClass: "page" },
+    [
+      _c("h1", { staticClass: "title-page" }, [_vm._v("Page 3")]),
+      _vm._v(" "),
+      _c(
+        "el-breadcrumb",
+        { attrs: { "separator-class": "el-icon-arrow-right" } },
+        [
+          _c("el-breadcrumb-item", { attrs: { to: { name: "page-one" } } }, [
+            _vm._v("Home")
+          ]),
+          _vm._v(" "),
+          _c("el-breadcrumb-item", [_vm._v("Page 3")])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _vm._m(0)
+    ],
+    1
+  )
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "page" }, [
+    return _c("div", { staticClass: "content-page" }, [
       _c("p", [
         _vm._v(
-          "\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo massa, facilisis quis fermentum vitae, dapibus at magna. Nulla at lacus at justo placerat bibendum et nec sem. Vestibulum sagittis nisi quis quam malesuada, non efficitur est viverra. Nam porttitor justo a luctus gravida. Nunc egestas ullamcorper risus, vitae vehicula neque scelerisque at. Proin aliquam vel dui non semper. Vivamus eget auctor ligula, vitae aliquam mi.\n\n    Ut sodales ornare commodo. Vestibulum non ullamcorper lorem. Nam accumsan libero ac libero volutpat iaculis. Morbi dapibus odio et metus convallis, vel tempus nulla dignissim. Donec eleifend nulla vitae ligula maximus, lobortis dignissim magna vestibulum. Pellentesque fermentum sapien purus. Nunc consectetur nunc bibendum efficitur rutrum.\n    "
+          '\n            "Não acredite em algo simplesmente porque ouviu. Não acredite em algo simplesmente porque todos falam a respeito. Não acredite em algo simplesmente porque está escrito em seus livros religiosos. Não acredite em algo só porque seus professores e mestres dizem que é verdade. Não acredite em tradições só porque foram passadas de geração em geração. Mas depois de muita análise e observação, se você vê que algo concorda com a razão, e que conduz ao bem e beneficio de todos, aceite-o e viva-o."\n        '
         )
       ]),
       _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "\n    Integer dui nisl, aliquet et erat id, vestibulum convallis nisi. Praesent sapien dolor, facilisis vel faucibus nec, sagittis eu enim. Nam iaculis id risus vitae elementum. Mauris sed dolor et erat imperdiet fringilla. Cras non bibendum nulla. Sed posuere pellentesque tortor, vitae sodales nibh aliquam non. Pellentesque nisi est, venenatis eu quam sed, ultrices suscipit nibh. Fusce imperdiet elit at ligula mollis, nec pretium metus hendrerit. Ut ac suscipit orci. Donec laoreet quam nulla, non vestibulum orci imperdiet at. Nulla rutrum placerat urna, eget sagittis quam sollicitudin eget. Sed non iaculis orci. Maecenas mollis, ante ac aliquet sodales, mauris ipsum tristique arcu, non vestibulum leo nisl nec velit. Pellentesque suscipit facilisis tortor, ut ultrices lorem finibus quis. Nulla mollis neque tortor, at feugiat mi semper non. Fusce eu ligula faucibus, pellentesque elit non, pulvinar ligula.\n\n    Ut convallis eros ut nisl sodales, id suscipit ex tincidunt. Phasellus at urna ac quam vulputate euismod. Donec sed nisl lacus. Suspendisse in augue massa. Donec luctus iaculis mollis. Vivamus magna odio, bibendum condimentum arcu sit amet, accumsan semper est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean blandit eget mi venenatis varius. Mauris ut ante dolor. Etiam gravida ligula mauris, in porta leo condimentum vitae. Suspendisse sit amet neque tellus. Nunc aliquet sollicitudin sodales. Cras tristique diam libero, nec tincidunt libero suscipit eu. Cras efficitur blandit commodo. Phasellus rhoncus a metus in malesuada.\n    "
-        )
-      ])
+      _c("div", [_c("em", [_vm._v("- Buda")])])
     ])
   }
 ]
@@ -96780,6 +96790,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -97628,6 +97648,7 @@ var render = function() {
         {
           staticClass: "el-menu-vertical-demo h-100",
           attrs: {
+            router: true,
             "default-active": "2",
             collapse: _vm.isCollapse,
             "background-color": _vm.backgroundColor,
@@ -97641,6 +97662,39 @@ var render = function() {
           _c(
             "el-submenu",
             { attrs: { index: "1" } },
+            [
+              _c("template", { slot: "title" }, [
+                _c("i", { staticClass: "el-icon-document" }),
+                _vm._v(" "),
+                _c("span", { attrs: { slot: "title" }, slot: "title" }, [
+                  _vm._v("Pages")
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "el-menu-item",
+                { attrs: { route: { name: "page-one" }, index: "1-1" } },
+                [_vm._v("Example Page 1")]
+              ),
+              _vm._v(" "),
+              _c(
+                "el-menu-item",
+                { attrs: { route: { name: "page-two" }, index: "1-2" } },
+                [_vm._v("Example Page 2")]
+              ),
+              _vm._v(" "),
+              _c(
+                "el-menu-item",
+                { attrs: { route: { name: "page-three" }, index: "1-3" } },
+                [_vm._v("Example Page 3")]
+              )
+            ],
+            2
+          ),
+          _vm._v(" "),
+          _c(
+            "el-submenu",
+            { attrs: { index: "2" } },
             [
               _c("template", { slot: "title" }, [
                 _c("i", { staticClass: "el-icon-location" }),
@@ -97657,11 +97711,11 @@ var render = function() {
                     _vm._v("Group One")
                   ]),
                   _vm._v(" "),
-                  _c("el-menu-item", { attrs: { index: "1-1" } }, [
+                  _c("el-menu-item", { attrs: { index: "2-1" } }, [
                     _vm._v("item one")
                   ]),
                   _vm._v(" "),
-                  _c("el-menu-item", { attrs: { index: "1-2" } }, [
+                  _c("el-menu-item", { attrs: { index: "2-2" } }, [
                     _vm._v("item two")
                   ])
                 ],
@@ -97672,7 +97726,7 @@ var render = function() {
                 "el-menu-item-group",
                 { attrs: { title: "Group Two" } },
                 [
-                  _c("el-menu-item", { attrs: { index: "1-3" } }, [
+                  _c("el-menu-item", { attrs: { index: "2-3" } }, [
                     _vm._v("item three")
                   ])
                 ],
@@ -97681,13 +97735,13 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "el-submenu",
-                { attrs: { index: "1-4" } },
+                { attrs: { index: "2-4" } },
                 [
                   _c("span", { attrs: { slot: "title" }, slot: "title" }, [
                     _vm._v("item four")
                   ]),
                   _vm._v(" "),
-                  _c("el-menu-item", { attrs: { index: "1-4-1" } }, [
+                  _c("el-menu-item", { attrs: { index: "2-4-1" } }, [
                     _vm._v("item one")
                   ])
                 ],
@@ -97697,7 +97751,7 @@ var render = function() {
             2
           ),
           _vm._v(" "),
-          _c("el-menu-item", { attrs: { index: "2" } }, [
+          _c("el-menu-item", { attrs: { index: "3" } }, [
             _c("i", { staticClass: "el-icon-menu" }),
             _vm._v(" "),
             _c("span", { attrs: { slot: "title" }, slot: "title" }, [
@@ -97705,7 +97759,7 @@ var render = function() {
             ])
           ]),
           _vm._v(" "),
-          _c("el-menu-item", { attrs: { index: "3", disabled: "" } }, [
+          _c("el-menu-item", { attrs: { index: "4", disabled: "" } }, [
             _c("i", { staticClass: "el-icon-document" }),
             _vm._v(" "),
             _c("span", { attrs: { slot: "title" }, slot: "title" }, [
@@ -97713,7 +97767,7 @@ var render = function() {
             ])
           ]),
           _vm._v(" "),
-          _c("el-menu-item", { attrs: { index: "4" } }, [
+          _c("el-menu-item", { attrs: { index: "5" } }, [
             _c("i", { staticClass: "el-icon-setting" }),
             _vm._v(" "),
             _c("span", { attrs: { slot: "title" }, slot: "title" }, [

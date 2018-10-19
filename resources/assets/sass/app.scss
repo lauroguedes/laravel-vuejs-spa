@@ -36,10 +36,27 @@ body{
 .el-main {
   background-color: $--color-info-lighter;
   color: $--color-text-regular;
+  padding: 0 !important;
   min-height: 100vh;
   min-height: -webkit-calc(100vh - 100px);
   min-height:    -moz-calc(100vh - 100px);
   min-height:         calc(100vh - 100px);
+  .page{
+    .title-page{
+      background: $--border-color-light;
+      font-size: $font-size-xl;
+      margin: 0;
+      padding: 20px;
+      text-transform: uppercase;
+    }
+    .el-breadcrumb{
+      padding: 10px;
+      background: $--border-color-lighter;
+    }
+    .content-page{
+      padding: 20px;
+    }
+  }
 }
 
 .el-footer{

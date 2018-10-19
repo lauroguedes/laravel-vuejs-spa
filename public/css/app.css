@@ -67331,8 +67331,26 @@ body #app .app-page {
 .el-main {
   background-color: #f4f4f5;
   color: #606266;
+  padding: 0 !important;
   min-height: 100vh;
   min-height: calc(100vh - 100px);
+}
+
+.el-main .page .title-page {
+  background: #e4e7ed;
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.el-main .page .el-breadcrumb {
+  padding: 10px;
+  background: #ebeef5;
+}
+
+.el-main .page .content-page {
+  padding: 20px;
 }
 
 .el-footer {
