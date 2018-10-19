@@ -1,6 +1,6 @@
 ## Demo
 
-![Preview](screenshot.jpg)
+![Preview](screenshot.gif)
 
 ## Requirements
 
