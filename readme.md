@@ -1,3 +1,7 @@
+## Demo
+
+![Preview](screenshot.jpg)
+
 ## Requirements
 
 - PHP >= 7.1.3
@@ -65,5 +69,5 @@ npm run production
 
 For change the layout type, open the `App.vue` file and edit layout string dynamiq component.
 
-For change the theme color, open the `resources/assets/js/sass_element-variables.scss` file and uncomment line 2 inserting the color. 
+For change the theme color, open the `resources/assets/js/sass/_element-variables.scss` file and uncomment the line 2 by inserting the color. 
 If you wish to make a few more changes to the theme, [access the document](https://element.eleme.io/#/en-US/component/custom-theme). 
