@@ -36,6 +36,7 @@ php artisan key:generate
 ```
 
 Database Create
+
 Open .env file and set database config
 ```
 php artisan migrate
